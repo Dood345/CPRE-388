@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="my_text">Hello Ames!</string>
+    <string name="butt_txt">Click Me</string>
+    <string name="secret">Hello ISU!</string>
+    <string name="random_sentence_format">%1$s.</string>
+    <string-array name="sentence_words">
+        <item>Android</item>
+        <item>is</item>
+        <item>fun</item>
+        <item>code</item>
+        <item>makes</item>
+        <item>apps</item>
+        <item>exciting</item>
+        <item>always</item>
+        <item>learn</item>
+    </string-array>
+</resources>
