@@ -5,6 +5,6 @@
 >
 > `main` is just the trunk. Check out the branches to see where we're growing.
 >
-> > PSST... the *really* cool stuff is over there. 👉
+> > PSST... the *really* cool stuff is somewhere else
 
 ---
