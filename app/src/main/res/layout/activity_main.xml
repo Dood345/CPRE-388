@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/CalculatorDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:textSize="48sp"
+        android:gravity="end"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClearClicked"
+        android:text="@string/clear" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_seven"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/button_eight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/button_nine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/nine" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onOperationClicked"
+            android:text="@string/multiply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/button_five"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/button_six"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/six" />
+
+        <Button
+            android:id="@+id/button_subtract"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onOperationClicked"
+            android:text="@string/subtract" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/one" />
+
+        <Button
+            android:id="@+id/button_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/button_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/three" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onOperationClicked"
+            android:text="@string/add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_zero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/button_decimal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDigitClicked"
+            android:text="@string/decimal" />
+
+        <Button
+            android:id="@+id/button_equal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onEqualClicked"
+            android:text="@string/equal"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/button_divide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onOperationClicked"
+            android:text="@string/divide" />
+    </LinearLayout>
+
+</LinearLayout>
