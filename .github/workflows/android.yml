@@ -3,9 +3,9 @@ name: Android CI
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "lab5" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "lab5" ]
 
 jobs:
   build:
