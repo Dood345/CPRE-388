@@ -18,5 +18,5 @@ https://github.com/firebase/quickstart-android
 
 [![Actions Status][gh-actions-badge]][gh-actions]
 
-[gh-actions]: https://github.com/Dood345/CPRE-388/lab5/actions
-[gh-actions-badge]: https://github.com/Dood345/CPRE-388/lab5/workflows/Android%20CI/badge.svg
+[gh-actions]: https://github.com/Dood345/CPRE-388/lab5/actions](https://github.com/Dood345/CPRE-388/actions?query=branch%3Alab5
+[gh-actions-badge]: https://github.com/Dood345/CPRE-388/workflows/Android%20CI/badge.svg
