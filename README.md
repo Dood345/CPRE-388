@@ -14,9 +14,9 @@ If you don't want to do the codelab and would rather view the completed
 sample code, see the Firebase Android Quickstart repository:
 https://github.com/firebase/quickstart-android
 
-## Build Status
+## This repo's Build Status
 
 [![Actions Status][gh-actions-badge]][gh-actions]
 
-[gh-actions]: https://github.com/firebase/friendlyeats-android/actions
-[gh-actions-badge]: https://github.com/firebase/friendlyeats-android/workflows/Android%20CI/badge.svg
+[gh-actions]: https://github.com/Dood345/CPRE-388/lab5/actions
+[gh-actions-badge]: https://github.com/Dood345/CPRE-388/lab5/workflows/Android%20CI/badge.svg
